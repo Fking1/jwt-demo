@@ -22,4 +22,4 @@ post {{url}}/login
 get {{url}}/users
 ### 个人信息
 get {{url}}/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjZTZjYmJhZjEzNGY4ODQyZjdkZGUyYyIsImlhdCI6MTU1ODYyOTk3Nn0.ENqDmNC4YBm5czYe92alChluQQgMqIAldy2f9N2ohlg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjZTZjYmJhZjEzNGY4ODQyZjdkZGUyYyIsImV4cCI6MTU1ODY2NDAwMSwiaWF0IjoxNTU4NjYzOTcxfQ.tox9VRx_2_mK2d4Vos5_D-meAttMMch6WUGNTTfhze4

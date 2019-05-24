@@ -43,15 +43,16 @@ app.post('/api/login', async (req, res) => {
   }
 
   // 生成token
-  const token = jwt.sign(
-    {id: String(user._id)}, SECRET)
+  const token = jwt.sign({ 
+    id: String(user._id),
+    exp: Math.floor(Date.now() / 1000) + (60 * 10),
+   }, SECRET)
 
   res.send({
     user,
     token: token
   })
 
-  res.send(user)
 })
 
 app.get('/api/profile', async (req, res) => {
